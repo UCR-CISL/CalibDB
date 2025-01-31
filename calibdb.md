@@ -175,7 +175,7 @@ TBD
 <tbody>
 <tr>
 <td align="center">
-<embed src="./media/qualitative.pdf" width="1000px"/>
+<embed src="./media/qualitative.pdf" width="1000px" height="100%"/>
 </td>
 </tr>
 </tbody>
