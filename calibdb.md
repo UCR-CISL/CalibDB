@@ -144,7 +144,7 @@ The proposed pipeline and dataset pave the way for the community to develop more
 <table border="0" cellspacing="10" cellpadding="0" align="center"> 
 <tbody>
 <tr><td><left>
-TBD
+CalibDB's platform is useful for collecting a multi-modal calibration dataset. Placed in a motion capture (MoCap) environment, our platform mounts a LiDAR and camera sensors on 2 Kinova Gen3 Lite arms. We place MoCap markers on both the sensors and the robot arms' end effectors for precise tracking of their poses. The use of robot arms allows for automated and accurate placement of their respective sensors throughout the scene, allowing for diverse collection of the extrinsics between the sensors. These extrinsics are categorized as the following: discrete traces with static extrinsics, discrete traces with dynamic extrinsics, continuous traces with static extrinsics, and continuous traces with dynamic extrinsics.
 </left>
 </td></tr>
 <tr><td>
@@ -156,26 +156,51 @@ TBD
 </table>
 
 
-<table border="0" cellspacing="10" cellpadding="0" align="center"> 
+<!-- <table border="0" cellspacing="10" cellpadding="0" align="center"> 
 <tbody><tr><td><left>
 TBD
 </left>
 </td></tr></tbody>
-</table>
+</table> -->
 
+<hr>
+<h1 align="center">Data Collection</h1>
+<table border="0" cellspacing="10" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td align="center">
+<h2>Discrete Sequences w/ Static Extrinsics</h3>
+<img src="./media/static-grid.png" width="1000px" height="100%"/>
+</td>
+</tr>
+<tr>
+<td align="center">
+<h2>Continuous Sequences w/ Fixed Extrinsics</h3>
+<img src="./media/dynamic-base-figure.png" width="1000px" height="100%"/>
+</td>
+</tr>
+<tr>
+<td align="center">
+<h2>Continuous Sequences w/ Dynamic Extrinsics</h3>
+<img src="./media/dynamic-arm-grid.png" width="1000px" height="100%"/>
+</td>
+</tr>
+</tbody>
+</table>
 
 <hr>
 <h1 align="center">Qualitative Results</h1>
 <table border="0" cellspacing="10" cellpadding="0" align="center"> 
 <tbody><tr><td><left>
-TBD
+The baseline methods' effectiveness can be confirmed by perform lidar-to-camera overlays using their predicted extrinsics. Surprisingly, these predicted extrinsics do not result in good overlays. Koide3 tends to change the orientation of the point cloud, suggesting poor transfer to the indoor setting. In some cases, CalibAnything's overlays appear as the closest to the ground-truth overlay, possibly due to using the ground-truth transform as the initial guess. Regnet's incorrect extrinsics is especially obvious from the large error in depth. Calibnet's results are omitted due to no points from the LiDAR point cloud projected into the image. 
+<!-- We evaluate the CalibDB dataset with the current state-of-the-art methods: Koide3, CalibAnything, Regnet, and CalibNet. These methods perform poorly on the CalibDB dataset but perform well on out outdoor data that mirrors these baseline methods' original training and evaluation datasets. Thus, CalibDB demonstrates poor domain transfer with current methods. -->
 </left></td></tr></tbody>
 </table>
 <table border="0" cellspacing="10" cellpadding="0" align="center">
 <tbody>
 <tr>
 <td align="center">
-<embed src="./media/qualitative.pdf" width="1000px" height="100%"/>
+<img src="./media/qualitative.png" width="1000px" height="100%"/>
 </td>
 </tr>
 </tbody>
