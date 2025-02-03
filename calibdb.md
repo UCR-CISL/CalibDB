@@ -169,19 +169,19 @@ TBD
 <tbody>
 <tr>
 <td align="center">
-<h2>Discrete Sequences w/ Static Extrinsics</h3>
+<h2>Discrete Sequences w/ Static Extrinsics</h2>
 <img src="./media/static-grid.png" width="1000px" height="100%"/>
 </td>
 </tr>
 <tr>
 <td align="center">
-<h2>Continuous Sequences w/ Fixed Extrinsics</h3>
+<h2>Continuous Sequences w/ Fixed Extrinsics</h2>
 <img src="./media/dynamic-base-figure.png" width="1000px" height="100%"/>
 </td>
 </tr>
 <tr>
 <td align="center">
-<h2>Continuous Sequences w/ Dynamic Extrinsics</h3>
+<h2>Continuous Sequences w/ Dynamic Extrinsics</h2>
 <img src="./media/dynamic-arm-grid.png" width="1000px" height="100%"/>
 </td>
 </tr>
