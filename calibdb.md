@@ -179,12 +179,12 @@ TBD
 <img src="./media/dynamic-base-figure.png" width="1000px" height="100%"/>
 </td>
 </tr>
-<tr><td>
+<tr><td align="center">
 <video muted autoplay loop width="500" controls>
   <source src="./media/cont-static-2-circle.mp4" type="video/mp4">
 </video>
 </td></tr>
-<tr><td>
+<tr><td align="center">
 <video muted autoplay loop width="500" controls>
   <source src="./media/cont-static-3-left-right.mp4" type="video/mp4">
 </video>
@@ -195,12 +195,12 @@ TBD
 <img src="./media/dynamic-arm-grid.png" width="1000px" height="100%"/>
 </td>
 </tr>
-<tr><td>
+<tr><td align="center">
 <video muted autoplay loop width="500" controls>
   <source src="./media/discrete-dynamic-1.mp4" type="video/mp4">
 </video>
 </td></tr>
-<tr><td>
+<tr><td align="center">
 <video muted autoplay loop width="500" controls>
   <source src="./media/discrete-dynamic-2-camera.mp4" type="video/mp4">
 </video>
