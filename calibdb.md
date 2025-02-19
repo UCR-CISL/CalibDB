@@ -181,7 +181,14 @@ TBD
 <tr>
 <td align="center">
 <h2>Discrete Sequences w/ Dynamic Extrinsics</h2>
-<img src="./media/dynamic-arm-grid.png" width="1000px" height="100%"/>
+<tr><td align="center">
+<video muted autoplay loop width="500" controls>
+  <source src="./media/discrete-dynamic-1.mp4" type="video/mp4">
+</video>
+<video muted autoplay loop width="500" controls>
+  <source src="./media/discrete-dynamic-2-camera.mp4" type="video/mp4">
+</video>
+</td></tr>
 </td>
 </tr>
 </tbody>
