@@ -93,6 +93,7 @@ ul li:before {
   /*change margin to move dash around*/
   margin-left: -1.1em;
 }
+
 </style>
 
 <meta content="MSHTML 6.00.2800.1400" name="GENERATOR"><script src="./src/b5m.js" id="b5mmain" type="text/javascript"></script><script type="text/javascript" async="" src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script></head>
@@ -144,7 +145,7 @@ The proposed pipeline and dataset pave the way for the community to develop more
 <table border="0" cellspacing="10" cellpadding="0" align="center"> 
 <tbody>
 <tr><td><left>
-CalibDB's platform is useful for collecting a multi-modal calibration dataset. Placed in a motion capture (MoCap) environment, our platform mounts a LiDAR and camera sensors on 2 Kinova Gen3 Lite arms. We place MoCap markers on both the sensors and the robot arms' end effectors for precise tracking of their poses. The use of robot arms allows for automated and accurate placement of their respective sensors throughout the scene, allowing for diverse collection of the extrinsics between the sensors. These extrinsics are categorized as the following: discrete traces with static extrinsics, discrete traces with dynamic extrinsics, continuous traces with static extrinsics, and continuous traces with dynamic extrinsics.
+CalibDB's platform is useful for collecting a multi-modal calibration dataset. Placed in a motion capture (MoCap) environment, our platform mounts a LiDAR and camera sensors on 2 Kinova Gen3 Lite arms. We place MoCap markers on both the sensors and the robot arms' end effectors for precise tracking of their poses. The use of robot arms allows for automated and accurate placement of their respective sensors throughout the scene, allowing for diverse collection of the extrinsics between the sensors. These extrinsics are categorized as the following: discrete traces with static extrinsics, discrete traces with dynamic extrinsics, continuous traces with static extrinsics, and continuous traces with dynamic extrinsics. Some "discrete sequences w/ static extrinsics" samples can be found <a href="https://drive.google.com/drive/folders/1YczHQkETFzfOzX64c1U3yi0oZPs6hFiy?usp=drive_link">here</a>.
 </left>
 </td></tr>
 </tbody>
