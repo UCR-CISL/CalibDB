@@ -170,13 +170,17 @@ TBD
 </tr>
 <tr>
 <td align="center">
-<h2>Continuous Sequences w/ Fixed Extrinsics</h2>
-<img src="./media/dynamic-base-figure.png" width="1000px" height="100%"/>
+<h2>Continuous Sequences w/ Static Extrinsics</h2>
+<tr><td align="center">
+<video muted autoplay loop width="500" controls>
+  <source src="./media/cont-static-2-circle.mp4" type="video/mp4">
+</video>
+</td></tr>
 </td>
 </tr>
 <tr>
 <td align="center">
-<h2>Continuous Sequences w/ Dynamic Extrinsics</h2>
+<h2>Discrete Sequences w/ Dynamic Extrinsics</h2>
 <img src="./media/dynamic-arm-grid.png" width="1000px" height="100%"/>
 </td>
 </tr>
